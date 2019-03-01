@@ -1,0 +1,92 @@
+<resources>
+    <properties>
+        <property id="FAT_1" type="float">.40</property>
+        <property id="WATT_1" type="number">121</property>
+        <property id="FAT_2" type="float">.52</property>
+        <property id="WATT_2" type="number">162</property>
+        <property id="FAT_3" type="float">.54</property>
+        <property id="WATT_3" type="number">202</property>
+        <property id="FAT_4" type="float">.46</property>
+        <property id="WATT_4" type="number">243</property>
+        <property id="FAT_5" type="float">.20</property>
+        <property id="WATT_5" type="number">283</property>
+        <property id="FAT_6" type="float">0.00</property>
+        <property id="WATT_6" type="number">324</property>
+        <property id="FAT_7" type="float">0.00</property>
+        <property id="WATT_7" type="number">364</property>
+    </properties>
+
+    <strings>
+       <string id="FAT_1_title">1st 'grams per minute burned' value -- for more help see instructions here: http://bit.ly/FatUsage</string>
+       <string id="Watt_1_title">Wattage at which that value occured</string>
+       <string id="FAT_2_title">2nd 'g/min burned' value</string>
+       <string id="Watt_2_title">Corresponding wattage value</string>
+       <string id="FAT_3_title">3rd 'g/min burned' value</string>
+       <string id="Watt_3_title">Corresponding wattage value</string>
+       <string id="FAT_4_title">4th 'g/min burned' value</string>
+       <string id="Watt_4_title">Corresponding wattage value</string>
+       <string id="FAT_5_title">5th 'g/min burned' value</string>
+       <string id="Watt_5_title">Corresponding wattage value</string>
+       <string id="FAT_6_title">6th 'g/min burned' value</string>
+       <string id="Watt_6_title">Corresponding wattage value</string>
+       <string id="FAT_7_title">7th 'g/min burned' value</string>
+       <string id="Watt_7_title">Corresponding wattage value</string>
+       <string id="field_label">fat burned</string>
+       <string id="field_units">calories</string>
+    </strings>
+
+    <settings>
+        <setting propertyKey="@Properties.FAT_1" title="@Strings.FAT_1_title" helpUrl="http://bit.ly/FatUsage">
+            <settingConfig type="numeric" min="0.0" max="3" />
+        </setting>
+        <setting propertyKey="@Properties.WATT_1" title="@Strings.Watt_1_title" >
+            <settingConfig type="numeric" min="0" max="600" />
+        </setting>
+
+        <setting propertyKey="@Properties.FAT_2" title="@Strings.FAT_2_title" >
+            <settingConfig type="numeric" min="0.0" max="3" />
+        </setting>
+        <setting propertyKey="@Properties.WATT_2" title="@Strings.Watt_2_title" >
+            <settingConfig type="numeric" min="0" max="600" />
+        </setting>
+
+        <setting propertyKey="@Properties.FAT_3" title="@Strings.FAT_3_title" >
+            <settingConfig type="numeric" min="0.0" max="3" />
+        </setting>
+        <setting propertyKey="@Properties.WATT_3" title="@Strings.Watt_3_title" >
+            <settingConfig type="numeric" min="0" max="600" />
+        </setting>
+
+        <setting propertyKey="@Properties.FAT_4" title="@Strings.FAT_4_title" >
+            <settingConfig type="numeric" min="0.0" max="3" />
+        </setting>
+        <setting propertyKey="@Properties.WATT_4" title="@Strings.Watt_4_title" >
+            <settingConfig type="numeric" min="0" max="600" />
+        </setting>
+
+        <setting propertyKey="@Properties.FAT_5" title="@Strings.FAT_5_title" >
+            <settingConfig type="numeric" min="0.0" max="3" />
+        </setting>
+        <setting propertyKey="@Properties.WATT_5" title="@Strings.Watt_5_title" >
+            <settingConfig type="numeric" min="0" max="600" />
+        </setting>
+
+        <setting propertyKey="@Properties.FAT_6" title="@Strings.FAT_6_title" >
+            <settingConfig type="numeric" min="0.0" max="3" />
+        </setting>
+        <setting propertyKey="@Properties.WATT_6" title="@Strings.Watt_6_title" >
+            <settingConfig type="numeric" min="0" max="600" />
+        </setting>
+
+        <setting propertyKey="@Properties.FAT_7" title="@Strings.FAT_7_title" >
+            <settingConfig type="numeric" min="0.0" max="3" />
+        </setting>
+        <setting propertyKey="@Properties.WATT_7" title="@Strings.Watt_7_title" >
+            <settingConfig type="numeric" min="0" max="600" />
+        </setting>
+    </settings>
+
+    <fitContributions>
+        <fitField id="0" displayInActivitySummary="true" sortOrder="0" precision="0" unitLabel="@Strings.field_units" dataLabel="@Strings.field_label" />
+	</fitContributions>
+</resources>

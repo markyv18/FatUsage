@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <pcToLineNum>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="6" pc="268435456" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="7" pc="268435460" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="8" pc="268435478" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="4" lineNum="15" pc="268435492" symbol="compute"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="4" lineNum="17" pc="268435496" symbol="compute"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageApp.mc" id="6" lineNum="5" pc="268435503" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageApp.mc" id="6" lineNum="6" pc="268435507" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageApp.mc" id="7" lineNum="10" pc="268435526" symbol="onStart"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageApp.mc" id="8" lineNum="14" pc="268435531" symbol="onStop"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageApp.mc" id="9" lineNum="18" pc="268435536" symbol="getInitialView"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageApp.mc" id="9" lineNum="19" pc="268435540" symbol="getInitialView"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="10" object="true" symbol="FatUsageApp"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry field="true" id="14" symbol="AppName"/>
+        <entry id="9" object="true" symbol="FatUsageView"/>
+        <entry field="true" id="13" symbol="LauncherIcon"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389137" method="true" symbol="compute"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry id="12" module="true" symbol="Layouts"/>
+        <entry id="8390088" module="true" object="true" symbol="JsonData"/>
+        <entry id="11" module="true" symbol="Menus"/>
+        <entry id="8388772" module="true" object="true" symbol="Fonts"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+    </symbolTable>
+    <localVars>
+        <entry endPc="268435503" name="info" stackId="1" startPc="268435492"/>
+        <entry endPc="268435531" name="state" stackId="1" startPc="268435526"/>
+        <entry endPc="268435536" name="state" stackId="1" startPc="268435531"/>
+    </localVars>
+    <annotations/>
+    <functions>
+        <functionEntry accessMode="public" name="initialize" parent="FatUsageView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="compute" parent="FatUsageView">
+            <param id="info"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initialize" parent="FatUsageApp">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onStart" parent="FatUsageApp">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onStop" parent="FatUsageApp">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="getInitialView" parent="FatUsageApp">
+            <documentation/>
+        </functionEntry>
+    </functions>
+    <dataEntryOffsetMappings>
+        <dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
+        <dataEntry offset="166" parentId="globals" symbolId="FatUsageApp" type="class"/>
+        <dataEntry offset="237" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry offset="316" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry offset="355" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry offset="386" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry offset="417" parentId="Rez" symbolId="JsonData" type="module"/>
+        <dataEntry offset="448" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry offset="479" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry offset="518" parentId="globals" symbolId="FatUsageView" type="class"/>
+    </dataEntryOffsetMappings>
+</debugInfo>
