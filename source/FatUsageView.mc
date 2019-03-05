@@ -22,7 +22,7 @@ class FatUsageView extends WatchUi.SimpleDataField {
 
         var watt_fat = {};
 
-        var FAT_burn = 0;
+        var FAT_burn = 0.00;
 
         var counter = 0;
 
@@ -66,7 +66,6 @@ class FatUsageView extends WatchUi.SimpleDataField {
 
 
 // iteration 2: filter out null values here and build logic to only use the ones we have
-// then offer 8 or 9 data points? never can have too few and will let the filtering take care of the too many
 
         //converting grams per minute to calories per second
         FAT_1 = (FAT_1 * 9 / 60);
@@ -148,6 +147,7 @@ class FatUsageView extends WatchUi.SimpleDataField {
             }
 
         label = "Fat cals";
+
     }
 
     function compute(info) {
@@ -163,14 +163,14 @@ class FatUsageView extends WatchUi.SimpleDataField {
                 pwr = 0;
             }
             else if (info.currentPower > WATT_7) {
-            	// Power data is above last known wattage hash/dictionary key - above this further contribution to power output comes from carbohydrate (and a little bit of lactate)
-				pwr = WATT_7;
+                // Power data is above last known wattage hash/dictionary key - above this further contribution to power output comes from carbohydrate (and a little bit of lactate)
+                pwr = WATT_7;
             }
             else {
                 // Incoming power data is OK! You've got the pow-wuh! https://www.youtube.com/watch?v=Cf_qfX9cKsQ Seriously, watch that, you're welcome.
                 pwr = info.currentPower;
             }
-        FAT_burn = FAT_burn + watt_fat.get(pwr);
+	      FAT_burn = FAT_burn + watt_fat.get(pwr);
         }
 
         else {
