@@ -1,43 +1,161 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
     <pcToLineNum>
-        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="6" pc="268435456" symbol="initialize"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="7" pc="268435460" symbol="initialize"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="8" pc="268435478" symbol="initialize"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="4" lineNum="15" pc="268435492" symbol="compute"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="4" lineNum="17" pc="268435496" symbol="compute"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageApp.mc" id="6" lineNum="5" pc="268435503" symbol="initialize"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageApp.mc" id="6" lineNum="6" pc="268435507" symbol="initialize"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageApp.mc" id="7" lineNum="10" pc="268435526" symbol="onStart"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageApp.mc" id="8" lineNum="14" pc="268435531" symbol="onStop"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageApp.mc" id="9" lineNum="18" pc="268435536" symbol="getInitialView"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageApp.mc" id="9" lineNum="19" pc="268435540" symbol="getInitialView"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="48" pc="268435456" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="49" pc="268435460" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="52" pc="268435478" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="53" pc="268435524" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="54" pc="268435570" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="55" pc="268435616" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="56" pc="268435662" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="57" pc="268435708" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="58" pc="268435754" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="59" pc="268435800" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="60" pc="268435846" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="61" pc="268435892" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="62" pc="268435938" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="63" pc="268435984" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="64" pc="268436030" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="65" pc="268436076" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="72" pc="268436122" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="73" pc="268436150" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="74" pc="268436178" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="75" pc="268436206" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="76" pc="268436234" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="77" pc="268436262" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="78" pc="268436290" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="81" pc="268436318" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="82" pc="268436361" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="83" pc="268436404" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="84" pc="268436447" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="85" pc="268436490" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="86" pc="268436533" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="87" pc="268436576" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="92" pc="268436619" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="94" pc="268436653" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="96" pc="268436678" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="98" pc="268436699" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="99" pc="268436736" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="102" pc="268436774" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="104" pc="268436799" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="106" pc="268436820" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="107" pc="268436857" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="110" pc="268436895" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="112" pc="268436920" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="114" pc="268436941" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="115" pc="268436978" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="118" pc="268437016" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="120" pc="268437041" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="122" pc="268437062" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="123" pc="268437099" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="126" pc="268437137" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="128" pc="268437162" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="130" pc="268437183" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="131" pc="268437220" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="134" pc="268437258" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="136" pc="268437283" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="138" pc="268437304" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="139" pc="268437341" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="142" pc="268437379" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="144" pc="268437404" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="146" pc="268437425" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="147" pc="268437462" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="150" pc="268437500" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="3" lineNum="152" pc="268437524" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="4" lineNum="155" pc="268437538" symbol="compute"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="4" lineNum="157" pc="268437542" symbol="compute"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="4" lineNum="159" pc="268437559" symbol="compute"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="4" lineNum="161" pc="268437578" symbol="compute"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="4" lineNum="163" pc="268437594" symbol="compute"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="4" lineNum="165" pc="268437617" symbol="compute"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="4" lineNum="167" pc="268437633" symbol="compute"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="4" lineNum="169" pc="268437659" symbol="compute"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="4" lineNum="173" pc="268437678" symbol="compute"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="4" lineNum="175" pc="268437700" symbol="compute"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="4" lineNum="180" pc="268437745" symbol="compute"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageView.mc" id="4" lineNum="185" pc="268437751" symbol="compute"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageApp.mc" id="6" lineNum="5" pc="268437761" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageApp.mc" id="6" lineNum="6" pc="268437765" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageApp.mc" id="7" lineNum="10" pc="268437784" symbol="onStart"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageApp.mc" id="8" lineNum="14" pc="268437789" symbol="onStop"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageApp.mc" id="9" lineNum="18" pc="268437794" symbol="getInitialView"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Fat Usage/source/FatUsageApp.mc" id="9" lineNum="19" pc="268437798" symbol="getInitialView"/>
     </pcToLineNum>
     <symbolTable>
+        <entry field="true" id="29" symbol="Watt_2_title"/>
+        <entry field="true" id="24" symbol="Watt_1_title"/>
+        <entry field="true" id="18" symbol="field_label"/>
+        <entry field="true" id="19" symbol="field_units"/>
+        <entry field="true" id="33" symbol="pwf2_3"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry field="true" id="40" symbol="FAT_burn"/>
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry field="true" id="36" symbol="pwf5_6"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry field="true" id="30" symbol="FAT_2_title"/>
+        <entry field="true" id="22" symbol="FAT_1_title"/>
         <entry id="10" object="true" symbol="FatUsageApp"/>
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry field="true" id="20" symbol="Watt_4_title"/>
+        <entry field="true" id="25" symbol="Watt_3_title"/>
         <entry id="8388702" method="true" symbol="initialize"/>
-        <entry field="true" id="14" symbol="AppName"/>
+        <entry field="true" id="21" symbol="AppName"/>
+        <entry field="true" id="32" symbol="pwf1_2"/>
         <entry id="9" object="true" symbol="FatUsageView"/>
         <entry field="true" id="13" symbol="LauncherIcon"/>
+        <entry field="true" id="35" symbol="pwf4_5"/>
+        <entry field="true" id="14" symbol="FAT_4_title"/>
         <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry field="true" id="17" symbol="FAT_3_title"/>
         <entry id="8389281" method="true" symbol="onStop"/>
+        <entry field="true" id="28" symbol="Watt_7_title"/>
+        <entry field="true" id="27" symbol="Watt_6_title"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry field="true" id="49" symbol="FAT_7"/>
+        <entry field="true" id="48" symbol="FAT_6"/>
         <entry id="8389137" method="true" symbol="compute"/>
+        <entry field="true" id="47" symbol="FAT_5"/>
+        <entry field="true" id="46" symbol="FAT_4"/>
+        <entry field="true" id="45" symbol="FAT_3"/>
+        <entry field="true" id="44" symbol="FAT_2"/>
+        <entry field="true" id="43" symbol="FAT_1"/>
+        <entry field="true" id="42" symbol="FAT_0"/>
+        <entry field="true" id="39" symbol="watt_fat"/>
+        <entry field="true" id="15" symbol="Watt_5_title"/>
         <entry id="8389279" method="true" symbol="onStart"/>
+        <entry field="true" id="41" symbol="counter"/>
+        <entry field="true" id="57" symbol="WATT_7"/>
+        <entry field="true" id="56" symbol="WATT_6"/>
+        <entry field="true" id="55" symbol="WATT_5"/>
+        <entry field="true" id="54" symbol="WATT_4"/>
+        <entry field="true" id="53" symbol="WATT_3"/>
+        <entry field="true" id="52" symbol="WATT_2"/>
+        <entry field="true" id="51" symbol="WATT_1"/>
+        <entry field="true" id="50" symbol="WATT_0"/>
+        <entry field="true" id="38" symbol="pwr"/>
+        <entry field="true" id="31" symbol="pwf0_1"/>
         <entry id="12" module="true" symbol="Layouts"/>
+        <entry field="true" id="23" symbol="FAT_7_title"/>
+        <entry field="true" id="26" symbol="FAT_6_title"/>
+        <entry field="true" id="16" symbol="FAT_5_title"/>
+        <entry field="true" id="34" symbol="pwf3_4"/>
         <entry id="8390088" module="true" object="true" symbol="JsonData"/>
+        <entry field="true" id="37" symbol="pwf6_7"/>
         <entry id="11" module="true" symbol="Menus"/>
         <entry id="8388772" module="true" object="true" symbol="Fonts"/>
         <entry id="8388635" module="true" symbol="Application"/>
     </symbolTable>
     <localVars>
-        <entry endPc="268435503" name="info" stackId="1" startPc="268435492"/>
-        <entry endPc="268435531" name="state" stackId="1" startPc="268435526"/>
-        <entry endPc="268435536" name="state" stackId="1" startPc="268435531"/>
+        <entry endPc="268436774" name="i" stackId="1" startPc="268436699"/>
+        <entry endPc="268436895" name="i" stackId="2" startPc="268436820"/>
+        <entry endPc="268437016" name="i" stackId="3" startPc="268436941"/>
+        <entry endPc="268437137" name="i" stackId="4" startPc="268437062"/>
+        <entry endPc="268437258" name="i" stackId="5" startPc="268437183"/>
+        <entry endPc="268437379" name="i" stackId="6" startPc="268437304"/>
+        <entry endPc="268437500" name="i" stackId="7" startPc="268437425"/>
+        <entry endPc="268437761" name="info" stackId="1" startPc="268437538"/>
+        <entry endPc="268437789" name="state" stackId="1" startPc="268437784"/>
+        <entry endPc="268437794" name="state" stackId="1" startPc="268437789"/>
     </localVars>
     <annotations/>
     <functions>
@@ -73,6 +191,6 @@
         <dataEntry offset="417" parentId="Rez" symbolId="JsonData" type="module"/>
         <dataEntry offset="448" parentId="Rez" symbolId="Layouts" type="module"/>
         <dataEntry offset="479" parentId="Rez" symbolId="Strings" type="module"/>
-        <dataEntry offset="518" parentId="globals" symbolId="FatUsageView" type="class"/>
+        <dataEntry offset="646" parentId="globals" symbolId="FatUsageView" type="class"/>
     </dataEntryOffsetMappings>
 </debugInfo>

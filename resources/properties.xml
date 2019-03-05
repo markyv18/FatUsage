@@ -11,7 +11,7 @@
         <property id="FAT_5" type="float">.20</property>
         <property id="WATT_5" type="number">283</property>
         <property id="FAT_6" type="float">0.00</property>
-        <property id="WATT_6" type="number">324</property>
+        <property id="WATT_6" type="number">323</property>
         <property id="FAT_7" type="float">0.00</property>
         <property id="WATT_7" type="number">364</property>
     </properties>
