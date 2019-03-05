@@ -147,7 +147,7 @@ class FatUsageView extends WatchUi.SimpleDataField {
             FAT_6 = FAT_6 + pwf6_7;
             }
 
-        label = "Fat Used";
+        label = "Fat cals";
     }
 
     function compute(info) {
