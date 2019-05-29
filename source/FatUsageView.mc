@@ -1,14 +1,17 @@
 using Toybox.WatchUi;
 using Toybox.Application as App;
 using Toybox.System as Sys;
+using Toybox.FitContributor as Fit;
+using Toybox.Math as Math;
+using Toybox.Lang as Lang;
 
 class FatUsageView extends WatchUi.SimpleDataField {
 
         // Constants
-//        const FAT_BURN_FIELD_ID = 0;
+        const FAT_BURN_FIELD_ID = 0;
 
         // Variables
-//        hidden var FAT_Burn_Field;
+        var FAT_Burn_Field = null;
           //'pwf' is per watt filler
         var pwf0_1 = 0.00;
         var pwf1_2 = 0.00;
@@ -147,6 +150,16 @@ class FatUsageView extends WatchUi.SimpleDataField {
             }
 
         label = "Fat cals";
+        
+   		// Create the custom FIT data field we want to record.
+		FAT_Burn_Field = createField(
+            "Calories of Fat Burned",
+            FAT_BURN_FIELD_ID,
+            Fit.DATA_TYPE_FLOAT,
+            {:mesgType=>Fit.MESG_TYPE_RECORD, :units=>"cals"}
+        );
+        FAT_Burn_Field.setData(0.0);
+		      
 
     }
 
@@ -170,7 +183,11 @@ class FatUsageView extends WatchUi.SimpleDataField {
                 // Incoming power data is OK! You've got the pow-wuh! https://www.youtube.com/watch?v=Cf_qfX9cKsQ Seriously, watch that, you're welcome.
                 pwr = info.currentPower;
             }
-	      FAT_burn = FAT_burn + watt_fat.get(pwr);
+	      
+	      	FAT_burn = FAT_burn + watt_fat.get(pwr);
+
+      		  // For testing purposes in the simulator change 'info.currentPower to '(info.timerTime/1000)' this will mock wattage inputs
+            FAT_Burn_Field.setData(FAT_burn);
         }
 
         else {
@@ -180,6 +197,10 @@ class FatUsageView extends WatchUi.SimpleDataField {
 
 		// For testing purposes in the simulator change '.currentPower to '.elapsedTime/1000' this will mock wattage inputs
 
-        return FAT_burn;
+        return FAT_burn.toNumber();
     }
 }
+
+
+
+
